@@ -3,7 +3,8 @@ import { Flexible } from './utils';
 import React from 'react';
 declare type Unit = 'px' | 'em' | 'rem' | '%' | 'ch' | 'vw' | 'vh';
 declare type UnitWithValue = `${number}${Unit}`;
-export declare type SpacingUnit = UnitWithValue | `major-${number}` | `minor-${number}` | `-major-${number}` | `-minor-${number}` | 'inherit' | 'initial' | 'revert' | 'unset';
+declare type PreDefinedSpacing = "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "5xl" | "6xl";
+export declare type SpacingUnit = UnitWithValue | `major-${number}` | `minor-${number}` | `-major-${number}` | `-minor-${number}` | 'inherit' | 'initial' | 'revert' | 'unset' | PreDefinedSpacing;
 export declare type CSSProperties = {
     _hover?: CSSProperties | boolean;
     _hoveractive?: CSSProperties | boolean;
