@@ -135,7 +135,8 @@ export type CSSProperties = {
   clip?: Flexible<React.CSSProperties['clip'], { [key: string]: React.CSSProperties['clip'] }>;
   clipPath?: Flexible<React.CSSProperties['clipPath'], { [key: string]: React.CSSProperties['clipPath'] }>;
   clipRule?: Flexible<React.CSSProperties['clipRule'], { [key: string]: React.CSSProperties['clipRule'] }>;
-  color?: Flexible<Palette, string | number | { [key: string]: Flexible<Palette, string> }>;
+  // color?: Flexible<Palette, string | number | { [key: string]: Flexible<Palette, string> }>;
+  color?: any;
   colorAdjust?: Flexible<React.CSSProperties['colorAdjust'], { [key: string]: React.CSSProperties['colorAdjust'] }>;
   columnCount?: Flexible<React.CSSProperties['columnCount'], { [key: string]: React.CSSProperties['columnCount'] }>;
   columnFill?: Flexible<React.CSSProperties['columnFill'], { [key: string]: React.CSSProperties['columnFill'] }>;

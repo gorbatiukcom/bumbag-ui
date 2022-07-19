@@ -323,9 +323,7 @@ export declare type CSSProperties = {
     clipRule?: Flexible<React.CSSProperties['clipRule'], {
         [key: string]: React.CSSProperties['clipRule'];
     }>;
-    color?: Flexible<Palette, string | number | {
-        [key: string]: Flexible<Palette, string>;
-    }>;
+    color?: any;
     colorAdjust?: Flexible<React.CSSProperties['colorAdjust'], {
         [key: string]: React.CSSProperties['colorAdjust'];
     }>;
