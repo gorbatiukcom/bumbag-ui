@@ -10,7 +10,6 @@
     "develop": "lerna run develop --scope=bumbag --stream",
     "docs": "lerna run start --scope=bumbag-website --stream",
     "prepare": "lerna run prepare",
-    "prepack": "lerna run prepare",
     "clean-packages": "lerna clean",
     "publish-packages": "lerna publish",
     "lint": "lerna run lint",
